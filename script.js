@@ -10,8 +10,8 @@
 const CONFIG = {
   WHATSAPP_URL:    'https://wa.me/51966285522',      // Ej: 'https://wa.me/51999999999?text=Hola, quiero información sobre PERUMEC 2026'
   GOOGLE_DRIVE_URL:'https://drive.google.com/drive/folders/1DET9woyRnXNLx84QF_jj8y_ahckiJRZl?usp=sharing',  // Ej: 'https://drive.google.com/drive/folders/XXXXX'
-  FORMULARIO_URL:  'FORMULARIO_URL_AQUI',    // Ej: 'https://forms.gle/XXXXX'
-  LINK_WEB:        'LINK_WEB_AQUI',          // Ej: 'https://perumec-unt.vercel.app'
+  FORMULARIO_URL:  'https://wa.me/51966285522',    // Ej: 'https://forms.gle/XXXXX'
+  LINK_WEB:        'https://perumec.vercel.app',          // Ej: 'https://perumec-unt.vercel.app'
 };
 
 (function applyConfigLinks() {
