@@ -14,6 +14,27 @@ const CONFIG = {
   LINK_WEB:        'LINK_WEB_AQUI',          // Ej: 'https://perumec-unt.vercel.app'
 };
 
+(function applyConfigLinks() {
+  const hasValue = (value) => value && !value.endsWith('_AQUI');
+  const replacements = {
+    WHATSAPP_URL_AQUI: CONFIG.WHATSAPP_URL,
+    GOOGLE_DRIVE_URL_AQUI: CONFIG.GOOGLE_DRIVE_URL,
+    FORMULARIO_URL_AQUI: CONFIG.FORMULARIO_URL,
+  };
+
+  Object.entries(replacements).forEach(([placeholder, value]) => {
+    if (!hasValue(value)) return;
+    document.querySelectorAll(`[href="${placeholder}"]`).forEach(link => {
+      link.href = value;
+    });
+  });
+
+  if (!hasValue(CONFIG.LINK_WEB)) return;
+  document.querySelectorAll('[content*="LINK_WEB_AQUI"]').forEach(meta => {
+    meta.content = meta.content.replaceAll('LINK_WEB_AQUI', CONFIG.LINK_WEB);
+  });
+})();
+
 /* ─────────────────────────────────────────────────────
    MENÚ HAMBURGUESA (MÓVIL)
    ───────────────────────────────────────────────────── */
