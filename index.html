@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delegación Ingeniería Informática UNT | PERUMEC 2026 Cusco</title>
+
+  <!-- SEO -->
+  <meta name="description" content="Únete a la delegación de Ingeniería Informática UNT rumbo a PERUMEC 2026 en Cusco. Congreso nacional, competencias, hackathon, networking y experiencia universitaria real." />
+  <meta name="theme-color" content="#0057D9" />
+
+  <!-- Open Graph (para compartir por WhatsApp) -->
+  <meta property="og:title" content="Delegación Ingeniería Informática UNT | PERUMEC 2026 Cusco" />
+  <meta property="og:description" content="Representemos a la UNT en el congreso nacional de ingeniería más importante del Perú. Cusco, agosto 2026." />
+  <meta property="og:type" content="website" />
+  <!-- CAMBIAR: Reemplaza con la URL real al desplegar en Vercel -->
+  <meta property="og:url" content="LINK_WEB_AQUI" />
+  <!-- CAMBIAR: Agrega una imagen de preview (1200x630px) en /assets/og-image.jpg -->
+  <meta property="og:image" content="LINK_WEB_AQUI/assets/og-image.jpg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       HEADER
+  ═══════════════════════════════════════════ -->
+  <header class="header" id="header">
+    <div class="header-inner container">
+      <a href="#inicio" class="header-brand">
+        <!-- CAMBIAR: Reemplaza src con /assets/logo-perumec.png -->
+        <img src="/assets/logo-perumec.png" alt="PERUMEC 2026" class="logo-perumec" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'" />
+        <span class="logo-fallback" style="display:none">PERUMEC<br/><span>2026</span></span>
+        <div class="header-brand-text">
+          <span class="brand-title">PERUMEC 2026</span>
+          <span class="brand-sub">Delegación · Ingeniería Informática UNT</span>
+        </div>
+      </a>
+
+      <nav class="nav-desktop" aria-label="Navegación principal">
+        <a href="#por-que-ir">¿Por qué ir?</a>
+        <a href="#competencias">Competencias</a>
+        <a href="#incuba">INCUBA UNT</a>
+        <a href="#presupuesto">Presupuesto</a>
+        <a href="#documentos">Documentos</a>
+        <!-- CAMBIAR: Reemplaza FORMULARIO_URL_AQUI con el link de inscripción -->
+        <a href="FORMULARIO_URL_AQUI" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Separar cupo</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Menú móvil -->
+    <nav class="nav-mobile" id="nav-mobile" aria-hidden="true">
+      <a href="#por-que-ir" class="mobile-link">¿Por qué ir?</a>
+      <a href="#competencias" class="mobile-link">Competencias</a>
+      <a href="#incuba" class="mobile-link">INCUBA UNT</a>
+      <a href="#presupuesto" class="mobile-link">Presupuesto</a>
+      <a href="#documentos" class="mobile-link">Documentos</a>
+      <!-- CAMBIAR: Reemplaza FORMULARIO_URL_AQUI con el link de inscripción -->
+      <a href="FORMULARIO_URL_AQUI" class="btn btn-primary mobile-cta" target="_blank" rel="noopener">Separar cupo</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════════ -->
+    <section class="hero" id="inicio">
+      <div class="hero-bg-shapes" aria-hidden="true">
+        <div class="shape shape-circle-lg"></div>
+        <div class="shape shape-circle-sm"></div>
+        <div class="shape shape-dots"></div>
+        <div class="shape shape-arc"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div class="eyebrow-tag">Cusco · Agosto 2026</div>
+          <h1 class="hero-title">
+            PERUMEC<br/>
+            <span class="hero-title-accent">2026</span><br/>
+            <span class="hero-title-sub">Cusco</span>
+          </h1>
+          <p class="hero-delegation">Delegación de Ingeniería Informática · UNT</p>
+          <p class="hero-message">
+            Representemos a la Universidad Nacional de Trujillo en Cusco.<br/>
+            No es solo un viaje — es congreso, competencias, networking y experiencia universitaria real.
+          </p>
+
+          <div class="hero-chips" role="list">
+            <span class="chip" role="listitem">📍 Cusco – UNSAAC</span>
+            <span class="chip" role="listitem">📅 Congreso: 03–07 ago</span>
+            <span class="chip" role="listitem">🚌 Salida est.: 31 jul</span>
+            <span class="chip" role="listitem">🔄 Regreso est.: 12 ago</span>
+            <span class="chip chip-accent" role="listitem">🚌 Bus de la UNT</span>
+            <span class="chip chip-accent" role="listitem">💰 Aprox. S/750</span>
+            <span class="chip chip-highlight" role="listitem">✅ Separa desde S/80</span>
+          </div>
+
+          <div class="hero-actions">
+            <!-- CAMBIAR: Reemplaza FORMULARIO_URL_AQUI con el link de inscripción -->
+            <a href="FORMULARIO_URL_AQUI" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+              Separar mi cupo
+            </a>
+            <!-- CAMBIAR: Reemplaza GOOGLE_DRIVE_URL_AQUI con el link al Drive -->
+            <a href="GOOGLE_DRIVE_URL_AQUI" class="btn btn-outline btn-lg" target="_blank" rel="noopener">
+              Ver documentos oficiales
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-img-frame">
+            <!-- CAMBIAR: Reemplaza src con /assets/cusco.jpg (foto real de Cusco o UNSAAC) -->
+            <img
+              src="/assets/cusco.jpg"
+              alt="Plaza de Armas del Cusco"
+              class="hero-img"
+              onerror="this.parentElement.classList.add('img-placeholder')"
+            />
+            <div class="hero-img-badge">
+              <span class="badge-number">2026</span>
+              <span class="badge-label">PERUMEC</span>
+            </div>
+          </div>
+          <div class="hero-decoration" aria-hidden="true">
+            <div class="deco-dot deco-dot-1"></div>
+            <div class="deco-dot deco-dot-2"></div>
+            <div class="deco-line"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         SECCIÓN: NO VAMOS COMO TURISTAS
+    ═══════════════════════════════════════════ -->
+    <section class="section section-white" id="delegacion">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Nuestra delegación</span>
+          <h2 class="section-title">Vamos como delegación de<br/><span class="text-blue">Ingeniería Informática UNT</span></h2>
+          <p class="section-desc">
+            La carrera también debe estar presente donde se reúnen universidades, empresas e ingenieros de todo el país.
+          </p>
+        </div>
+
+        <div class="cards-grid cards-grid-4 reveal">
+          <div class="card card-icon">
+            <div class="card-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>Representamos a la UNT</h3>
+            <p>Llevamos el nombre de la Universidad Nacional de Trujillo a nivel nacional.</p>
+          </div>
+          <div class="card card-icon">
+            <div class="card-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </div>
+            <h3>Representamos a Ingeniería Informática</h3>
+            <p>La carrera tiene que estar presente en los eventos que marcan el rumbo de la ingeniería peruana.</p>
+          </div>
+          <div class="card card-icon">
+            <div class="card-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </div>
+            <h3>Nos preparamos para competir</h3>
+            <p>Con INCUBA UNT, llegamos listos para el Hackathon y el Elevator Pitch.</p>
+          </div>
+          <div class="card card-icon">
+            <div class="card-icon-wrap">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg>
+            </div>
+            <h3>Sumamos experiencia real al CV</h3>
+            <p>Competencias, certificados y networking con empresas y profesionales del sector.</p>
+          </div>
+        </div>
+
+        <div class="callout-highlight reveal">
+          <p>El turismo es el bonus.<br/><strong>El objetivo es representar a la carrera.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         MÉTRICAS PERUMEC
+    ═══════════════════════════════════════════ -->
+    <section class="section section-navy" id="metricas">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow section-eyebrow-light">El evento</span>
+          <h2 class="section-title text-white">PERUMEC 2026 en números</h2>
+          <p class="section-desc text-muted-light">Un evento nacional donde convergen estudiantes, profesionales, empresas y universidades de todo el país.</p>
+        </div>
+
+        <div class="metrics-grid reveal">
+          <div class="metric-card">
+            <span class="metric-num" data-target="1500">0</span>
+            <span class="metric-plus">+</span>
+            <span class="metric-label">Participantes</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-num" data-target="40">0</span>
+            <span class="metric-plus">+</span>
+            <span class="metric-label">Universidades</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-num" data-target="30">0</span>
+            <span class="metric-plus">+</span>
+            <span class="metric-label">Empresas</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-num" data-target="25">0</span>
+            <span class="metric-plus">+</span>
+            <span class="metric-label">Expositores</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-num" data-target="15">0</span>
+            <span class="metric-plus">+</span>
+            <span class="metric-label">Workshops</span>
+          </div>
+          <div class="metric-card">
+            <span class="metric-num" data-target="10">0</span>
+            <span class="metric-plus">+</span>
+            <span class="metric-label">Concursos</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         ¿POR QUÉ LE CONVIENE A INFORMÁTICA?
+    ═══════════════════════════════════════════ -->
+    <section class="section section-soft" id="por-que-ir">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Tu carrera en juego</span>
+          <h2 class="section-title">¿Por qué ir si eres de<br/><span class="text-blue">Ingeniería Informática?</span></h2>
+          <p class="section-desc">
+            Si sabes programar, aquí no vienes solo a escuchar teoría. Vienes a competir, crear, hacer contactos y aplicar tecnología en problemas reales.
+          </p>
+        </div>
+
+        <div class="cards-grid cards-grid-4 reveal">
+          <div class="card card-pill">
+            <div class="pill-icon pill-blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <span>Programación Competitiva</span>
+          </div>
+          <div class="card card-pill">
+            <div class="pill-icon pill-blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
+            </div>
+            <span>Hackathon Tecnológica</span>
+          </div>
+          <div class="card card-pill">
+            <div class="pill-icon pill-blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg>
+            </div>
+            <span>Elevator Pitch</span>
+          </div>
+          <div class="card card-pill">
+            <div class="pill-icon pill-light">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            </div>
+            <span>Talleres de Python</span>
+          </div>
+          <div class="card card-pill">
+            <div class="pill-icon pill-light">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            </div>
+            <span>Automatización y Robótica</span>
+          </div>
+          <div class="card card-pill">
+            <div class="pill-icon pill-light">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg>
+            </div>
+            <span>Networking con Empresas</span>
+          </div>
+          <div class="card card-pill">
+            <div class="pill-icon pill-light">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89L17 22l-5-3-5 3 1.523-9.11"/></svg>
+            </div>
+            <span>Certificados</span>
+          </div>
+          <div class="card card-pill">
+            <div class="pill-icon pill-light">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/></svg>
+            </div>
+            <span>Experiencia para el CV</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         COMPETENCIAS DESTACADAS
+    ═══════════════════════════════════════════ -->
+    <section class="section section-white" id="competencias">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Compite</span>
+          <h2 class="section-title">Competencias donde Informática <span class="text-blue">tiene ventaja</span></h2>
+        </div>
+
+        <div class="competition-blocks reveal">
+
+          <!-- Bloque 1: Programación competitiva -->
+          <div class="comp-block comp-block-featured">
+            <div class="comp-block-header">
+              <div class="comp-number">01</div>
+              <div>
+                <span class="comp-tag">Individual o equipo</span>
+                <h3 class="comp-title">Programación Competitiva</h3>
+                <p class="comp-tagline">Compite contra equipos de todo el país.</p>
+              </div>
+            </div>
+            <div class="comp-details">
+              <div class="comp-detail-list">
+                <div class="comp-detail-item"><span class="detail-label">Formato</span><span>Estilo ICPC · Plataforma DOMjudge</span></div>
+                <div class="comp-detail-item"><span class="detail-label">Problemas</span><span>13 problemas en 5 horas</span></div>
+                <div class="comp-detail-item"><span class="detail-label">Lenguajes</span><span>C++, Java y Python</span></div>
+                <div class="comp-detail-item"><span class="detail-label">Categorías</span><span>Novato · Estándar · Avanzado · Élite</span></div>
+                <div class="comp-detail-item"><span class="detail-label">Equipo</span><span>1 a 3 participantes</span></div>
+                <div class="comp-detail-item"><span class="detail-label">Fecha</span><span>07 de agosto · 8:00–13:00</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bloque 2: Hackathon -->
+          <div class="comp-block">
+            <div class="comp-block-header">
+              <div class="comp-number">02</div>
+              <div>
+                <span class="comp-tag">Equipo de 3–5</span>
+                <h3 class="comp-title">Hackathon Grupal</h3>
+                <p class="comp-tagline">Construye un prototipo real y defiéndelo con tu equipo.</p>
+              </div>
+            </div>
+            <div class="comp-details">
+              <ul class="comp-list">
+                <li>Software, hardware o prototipo mixto</li>
+                <li>Automatización y robótica</li>
+                <li>Análisis de datos con Python</li>
+                <li>Eficiencia energética y minería sostenible</li>
+                <li>Pitch final ante jurados</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bloque 3: Elevator Pitch -->
+          <div class="comp-block">
+            <div class="comp-block-header">
+              <div class="comp-number">03</div>
+              <div>
+                <span class="comp-tag">Individual</span>
+                <h3 class="comp-title">Elevator Pitch</h3>
+                <p class="comp-tagline">Aprende a vender una idea técnica en pocos minutos.</p>
+              </div>
+            </div>
+            <div class="comp-details">
+              <ul class="comp-list">
+                <li>Presentación breve de tu idea o proyecto</li>
+                <li>Sin depender de diapositivas</li>
+                <li>Enfoque en claridad y persuasión</li>
+                <li>Comunicación técnica efectiva</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         INCUBA UNT
+    ═══════════════════════════════════════════ -->
+    <section class="section section-blue-gradient" id="incuba">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow section-eyebrow-light">Respaldo institucional</span>
+          <h2 class="section-title text-white">No iremos solo a participar.<br/>Iremos preparados.</h2>
+          <p class="section-desc text-muted-light">Con apoyo de <strong>INCUBA UNT</strong>, la Incubadora de Empresas de la Universidad Nacional de Trujillo.</p>
+        </div>
+
+        <p class="incuba-body reveal">
+          INCUBA UNT brindará capacitaciones y acompañamiento a los estudiantes que deseen participar en el Elevator Pitch individual o en la Hackathon grupal.
+        </p>
+
+        <div class="incuba-cards reveal">
+          <div class="incuba-card">
+            <div class="incuba-card-tag">Individual</div>
+            <h3>Elevator Pitch</h3>
+            <ul>
+              <li>Ideación de proyecto</li>
+              <li>Estructura del discurso</li>
+              <li>Comunicación clara y directa</li>
+              <li>Preparación para presentar</li>
+              <li>Enfoque en propuesta de valor</li>
+            </ul>
+          </div>
+          <div class="incuba-card">
+            <div class="incuba-card-tag">Equipo</div>
+            <h3>Hackathon Grupal</h3>
+            <ul>
+              <li>Definición del problema</li>
+              <li>Ideación de solución</li>
+              <li>Organización del equipo</li>
+              <li>Desarrollo de propuesta</li>
+              <li>Preparación del pitch final</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="incuba-footer reveal">
+          <!-- CAMBIAR: Reemplaza src con /assets/logo-incuba-unt.png -->
+          <div class="incuba-logo-wrap">
+            <img src="/assets/logo-incuba-unt.png" alt="INCUBA UNT" class="incuba-logo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'" />
+            <span class="incuba-logo-fallback" style="display:none">INCUBA UNT</span>
+          </div>
+          <blockquote class="incuba-quote">
+            No vamos a improvisar. Vamos con preparación, acompañamiento y una propuesta seria desde la UNT.
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         WORKSHOPS
+    ═══════════════════════════════════════════ -->
+    <section class="section section-white">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Aprende</span>
+          <h2 class="section-title">Workshops y minicursos</h2>
+          <span class="badge-cert">✦ Incluye certificaciones</span>
+        </div>
+
+        <div class="cards-grid cards-grid-3 reveal">
+          <div class="card card-workshop">
+            <div class="workshop-icon">🐍</div>
+            <h3>Programación Python</h3>
+            <p>Aplicaciones prácticas, automatización y análisis de datos.</p>
+          </div>
+          <div class="card card-workshop">
+            <div class="workshop-icon">⚙️</div>
+            <h3>Automatización y control</h3>
+            <p>Sistemas de control aplicados a procesos industriales.</p>
+          </div>
+          <div class="card card-workshop">
+            <div class="workshop-icon">🤖</div>
+            <h3>Sensores, robótica y electrónica</h3>
+            <p>Instrumentación y prototipado con hardware real.</p>
+          </div>
+          <div class="card card-workshop">
+            <div class="workshop-icon">💡</div>
+            <h3>Innovación y prototipado</h3>
+            <p>Metodologías para desarrollar soluciones desde cero.</p>
+          </div>
+          <div class="card card-workshop">
+            <div class="workshop-icon">🌿</div>
+            <h3>Energías renovables</h3>
+            <p>Tendencias y aplicaciones en sostenibilidad energética.</p>
+          </div>
+          <div class="card card-workshop">
+            <div class="workshop-icon">🔧</div>
+            <h3>Mantenimiento industrial</h3>
+            <p>Gestión de activos y mantenimiento predictivo.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         NETWORKING / EXPOMEC
+    ═══════════════════════════════════════════ -->
+    <section class="section section-soft">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Conecta</span>
+          <h2 class="section-title">Conecta con universidades, empresas<br/><span class="text-blue">y proyectos reales</span></h2>
+        </div>
+
+        <div class="networking-grid reveal">
+          <div class="networking-item">
+            <div class="net-icon">🏛️</div>
+            <span>EXPOMEC</span>
+          </div>
+          <div class="networking-item">
+            <div class="net-icon">🏢</div>
+            <span>Empresas y startups</span>
+          </div>
+          <div class="networking-item">
+            <div class="net-icon">🎓</div>
+            <span>Universidades del país</span>
+          </div>
+          <div class="networking-item">
+            <div class="net-icon">💻</div>
+            <span>Proveedores tecnológicos</span>
+          </div>
+          <div class="networking-item">
+            <div class="net-icon">🔬</div>
+            <span>Stands de innovación</span>
+          </div>
+          <div class="networking-item">
+            <div class="net-icon">🚀</div>
+            <span>Stands de emprendimiento</span>
+          </div>
+          <div class="networking-item">
+            <div class="net-icon">📋</div>
+            <span>Espacios de reclutamiento</span>
+          </div>
+          <div class="networking-item">
+            <div class="net-icon">🤝</div>
+            <span>Mesas de networking</span>
+          </div>
+        </div>
+
+        <div class="callout-blue reveal">
+          <p>Es el tipo de evento donde puedes mostrarte, hacer contactos y <strong>empezar a construir oportunidades.</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         EXPERIENCIA CUSCO
+    ═══════════════════════════════════════════ -->
+    <section class="section section-white" id="cusco">
+      <div class="container cusco-layout">
+        <div class="cusco-content reveal">
+          <span class="section-eyebrow">Más que un congreso</span>
+          <h2 class="section-title">Cusco también será<br/><span class="text-blue">parte de la experiencia</span></h2>
+          <p class="section-desc">Estudiar, competir y hacer networking en Cusco no pasa todos los ciclos.</p>
+
+          <ul class="cusco-list">
+            <li><span class="cusco-dot"></span> Sede UNSAAC · Universidad Nacional de San Antonio Abad del Cusco</li>
+            <li><span class="cusco-dot"></span> Ciudad imperial del Perú</li>
+            <li><span class="cusco-dot"></span> Actividades culturales y de integración universitaria</li>
+            <li><span class="cusco-dot"></span> Días libres para conocer Cusco</li>
+            <li><span class="cusco-dot"></span> Turismo universitario con la delegación</li>
+          </ul>
+
+          <p class="cusco-quote">Congreso, tecnología, comunidad y Cusco en una sola experiencia.</p>
+        </div>
+
+        <div class="cusco-img-wrap reveal">
+          <!-- CAMBIAR: Reemplaza src con /assets/unsaac.jpg o /assets/cusco.jpg -->
+          <img
+            src="/assets/unsaac.jpg"
+            alt="UNSAAC Cusco"
+            class="cusco-img"
+            onerror="this.parentElement.classList.add('img-placeholder')"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CRONOGRAMA
+    ═══════════════════════════════════════════ -->
+    <section class="section section-navy" id="cronograma">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow section-eyebrow-light">Planifica</span>
+          <h2 class="section-title text-white">Fechas clave</h2>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <div class="timeline-date">31 jul</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <strong>Salida estimada</strong>
+              <p>Bus de la UNT desde Trujillo a Cusco.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">03 ago</div>
+            <div class="timeline-dot timeline-dot-accent"></div>
+            <div class="timeline-content">
+              <strong>Inicio PERUMEC 2026</strong>
+              <p>Apertura oficial del congreso en la UNSAAC, Cusco.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">03–07 ago</div>
+            <div class="timeline-dot timeline-dot-accent"></div>
+            <div class="timeline-content">
+              <strong>PERUMEC 2026</strong>
+              <p>Congreso, talleres, competencias, hackathon, pitch y actividades.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">08–11 ago</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <strong>Días libres</strong>
+              <p>Turismo, integración y exploración de Cusco.</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-date">12 ago</div>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <strong>Regreso estimado</strong>
+              <p>Retorno en bus a Trujillo.</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="timeline-note reveal">* Las fechas de viaje pueden ajustarse según la coordinación final de la delegación.</p>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         PRESUPUESTO
+    ═══════════════════════════════════════════ -->
+    <section class="section section-white" id="presupuesto">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Accesible</span>
+          <h2 class="section-title">Presupuesto objetivo<br/><span class="text-blue">universitario</span></h2>
+        </div>
+
+        <div class="budget-layout reveal">
+          <div class="budget-featured">
+            <span class="budget-label">Costo estimado por persona</span>
+            <span class="budget-price">S/750</span>
+            <span class="budget-sublabel">Presupuesto pensado para estudiantes</span>
+            <!-- CAMBIAR: Reemplaza FORMULARIO_URL_AQUI con el link de inscripción -->
+            <a href="FORMULARIO_URL_AQUI" class="btn btn-primary btn-lg mt-2" target="_blank" rel="noopener">
+              Separar cupo desde S/80
+            </a>
+          </div>
+
+          <div class="budget-breakdown">
+            <h3>¿Qué cubre?</h3>
+            <div class="budget-items">
+              <div class="budget-item">
+                <span class="budget-dot"></span>
+                <span>Inscripción al congreso PERUMEC</span>
+              </div>
+              <div class="budget-item">
+                <span class="budget-dot"></span>
+                <span>Hospedaje compartido</span>
+              </div>
+              <div class="budget-item">
+                <span class="budget-dot"></span>
+                <span>Comida ajustada al presupuesto</span>
+              </div>
+              <div class="budget-item">
+                <span class="budget-dot"></span>
+                <span>Movilidad local en Cusco</span>
+              </div>
+              <div class="budget-item">
+                <span class="budget-dot"></span>
+                <span>Bus de la UNT (aprox. S/50, por confirmar)</span>
+              </div>
+              <div class="budget-item">
+                <span class="budget-dot"></span>
+                <span>Fondo de emergencia mínimo</span>
+              </div>
+              <div class="budget-item">
+                <span class="budget-dot"></span>
+                <span>Tours económicos según coordinación</span>
+              </div>
+            </div>
+            <div class="budget-note">
+              ⚠️ El monto final puede variar según cierre de bus, hospedaje, tours y número de inscritos. No incluye compras personales ni gastos extra.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         DOCUMENTOS
+    ═══════════════════════════════════════════ -->
+    <section class="section section-soft" id="documentos">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-eyebrow">Información oficial</span>
+          <h2 class="section-title">Documentos y bases oficiales</h2>
+          <p class="section-desc">Brochures, bases, cronogramas y documentos completos disponibles en Drive.</p>
+        </div>
+
+        <div class="docs-block reveal">
+          <div class="docs-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+          <p>Bases de competencias, cronograma completo, requisitos de inscripción y más.</p>
+          <!-- CAMBIAR: Reemplaza GOOGLE_DRIVE_URL_AQUI con el link real al Drive -->
+          <a href="GOOGLE_DRIVE_URL_AQUI" class="btn btn-primary btn-lg" target="_blank" rel="noopener">
+            Ver documentos oficiales
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         CTA FINAL
+    ═══════════════════════════════════════════ -->
+    <section class="section section-cta">
+      <div class="container">
+        <div class="cta-inner reveal">
+          <!-- CAMBIAR: Reemplaza src con /assets/logo-perumec.png -->
+          <img src="/assets/logo-perumec.png" alt="PERUMEC 2026" class="cta-logo" onerror="this.style.display='none'" />
+          <h2 class="cta-title">¿Te sumas a la delegación?</h2>
+          <p class="cta-body">
+            Representemos a Ingeniería Informática UNT en PERUMEC 2026 – Cusco.<br/>
+            Cupos limitados. Costo universitario. Una experiencia que suma a la carrera, al CV y a la vida universitaria.
+          </p>
+          <div class="cta-actions">
+            <!-- CAMBIAR: Reemplaza WHATSAPP_URL_AQUI con el link real de WhatsApp -->
+            <a href="WHATSAPP_URL_AQUI" class="btn btn-white btn-lg" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Separar cupo por WhatsApp
+            </a>
+            <!-- CAMBIAR: Reemplaza GOOGLE_DRIVE_URL_AQUI con el link al Drive -->
+            <a href="GOOGLE_DRIVE_URL_AQUI" class="btn btn-outline-white btn-lg" target="_blank" rel="noopener">
+              Ver documentos oficiales
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logos">
+        <!-- CAMBIAR: Reemplaza src de cada logo con el archivo real -->
+        <img src="/assets/logo-perumec.png" alt="PERUMEC 2026" class="footer-logo" onerror="this.style.display='none'" />
+        <img src="/assets/logo-unt.png" alt="UNT" class="footer-logo" onerror="this.style.display='none'" />
+        <img src="/assets/logo-ing-informatica.png" alt="Ing. Informática UNT" class="footer-logo" onerror="this.style.display='none'" />
+        <img src="/assets/logo-cefinf.png" alt="CEFINF" class="footer-logo" onerror="this.style.display='none'" />
+        <img src="/assets/logo-incuba-unt.png" alt="INCUBA UNT" class="footer-logo" onerror="this.style.display='none'" />
+      </div>
+      <div class="footer-text">
+        <p class="footer-title">PERUMEC 2026 – Cusco</p>
+        <p>Delegación Ingeniería Informática · Universidad Nacional de Trujillo</p>
+        <p class="footer-disclaimer">Página informativa de la delegación. La información económica puede actualizarse según coordinación final.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón volver arriba -->
+  <button class="back-to-top" id="backToTop" aria-label="Volver arriba">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <!-- Botón flotante WhatsApp (móvil) -->
+  <!-- CAMBIAR: Reemplaza WHATSAPP_URL_AQUI con el link real de WhatsApp -->
+  <a href="WHATSAPP_URL_AQUI" class="whatsapp-fab" target="_blank" rel="noopener" aria-label="Contáctanos por WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
